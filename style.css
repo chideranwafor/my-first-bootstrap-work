@@ -1,0 +1,231 @@
+/* global */
+body {
+    margin: 0;
+    max-width: 100%;
+/*    background-color: #020202;*/
+    background: url(assets/IMG_44711.JPG);
+}
+
+.navbar {
+    padding: 25px 25px 25px 100px;
+/*    background-color: rgb(89 89 89);*/
+    margin: auto;
+}
+
+.navbar-brand {
+    margin: auto;
+    padding: 25px;
+    color: darkorange;
+    font-size: x-large;
+}
+
+.navbar-brand:hover {
+    color: darkorange;
+}
+
+a.navbar-brand span {
+    font-style: italic;
+    font-size: xxx-large;
+    font-family: auto;
+}
+
+.navbar-toggler {
+    background-color: darkorange;
+}
+
+.navbar-toggler-icon {
+    margin: auto;
+}
+
+.navbar-nav {
+    text-transform: uppercase;
+    margin: 0 auto;
+    padding-left: 300px;
+    font-size: large;
+}
+
+.nav-link {
+    color: darkorange;
+}
+
+.nav-link:hover {
+    color: #ffffff;
+    border-style: groove;
+    border-color: darkorange;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.createdBy {
+    margin-right: 10px;
+    text-align: right;
+    color: darkorange;
+}
+
+/*index.html*/
+/* .home-img {} */
+
+/* about.html */
+
+.col-md-5 {
+    padding: 10px 0px 0px 30px;
+}
+
+.image-box {
+    margin: 20px;
+}
+
+.text-box {
+    margin: 20px;
+    padding: 50px 0px 0px 0px;
+}
+
+.about-header {
+    text-align: center;
+    color: darkorange;
+}
+
+.about-p {
+    text-align: justify;
+    color: #ffffff;
+}
+
+/* portfolio.html */
+.heading {
+    color: darkorange;
+    padding-left: 100px;
+}
+
+.portfolio-label p a {
+    color: darkorange;
+    font-size: large;
+    text-decoration: none;
+}
+
+.portfolio-box a img:hover {
+    transform: scale(1.05);
+}
+
+.portfolio-label p a:hover {
+    color: #ffffff;
+}
+
+.container,
+.row {
+    width: 100%;
+    margin: auto;
+}
+
+/* col-7 {
+    display: block;
+} */
+
+input,
+textarea {
+    font-size: 15px;
+    padding: 8px;
+    border-radius: 7px;
+    border-color: #020202;
+    background-color: darkorange;
+}
+
+input {
+    width: 500px;
+}
+
+textarea {
+    width: 500px;
+    height: 200px;
+}
+
+.form-btn {
+    background-color: darkorange;
+    color: #020202;
+    font-size: large;
+    font-weight: 500;
+    padding: 10px 20px;
+    border-color: #020202;
+    border-radius: 20px;
+}
+
+.form-btn:hover {
+    background-color: #ffffff;
+    color: darkorange;
+    transition: all ease-in-out .5s;
+}
+
+.fa {
+    color: darkorange;
+    font-size: large;
+}
+
+.container span.phone-number {
+    padding-left: 35px;
+    color: darkorange;
+}
+
+.container span.email {
+    color: darkorange;
+    padding-left: 25px;
+}
+
+.container span.address {
+    padding-left: 33px;
+    color: darkorange;
+}
+
+h4.fa-headings {
+    color: darkorange;
+}
+
+@media(max-width: 991px) {
+    .navbar {
+        padding: 25px;
+    }
+
+    .navbar-brand {
+        margin-left: 100px;
+    }
+
+    .navbar-nav {
+        padding: 0px;
+    }
+
+    .text-box {
+        padding: 10px;
+        margin: 10px;
+    }
+
+    .col-sm-12 {
+        margin: auto;
+    }
+
+    .container,
+    .row {
+        width: 100%;
+        margin: auto;
+    }
+
+    .row {
+        display: block;
+    }
+
+    input {
+        max-width: 400px;
+    }
+
+    textarea {
+        max-width: 400px;
+        height: 100px;
+    }
+
+    .box {
+        margin-top: 30px;
+        max-width: 400px;
+    }
+
+}
